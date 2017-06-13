@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -90,6 +90,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,84 +163,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="PETAL-LONG-1">
-<wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
-<circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
-<pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
-<polygon width="0.2032" layer="1" spacing="0.4064">
-<vertex x="3.6" y="-1.9" curve="-110.088851"/>
-<vertex x="3.6" y="1.9"/>
-<vertex x="-0.4" y="2.5" curve="89.995593"/>
-<vertex x="-3" y="0" curve="89.991186"/>
-<vertex x="-0.4" y="-2.5"/>
-</polygon>
-<polygon width="0.2032" layer="29" spacing="0.4064">
-<vertex x="3.6" y="-1.9" curve="-110.088851"/>
-<vertex x="3.6" y="1.9"/>
-<vertex x="-0.4" y="2.5" curve="89.995593"/>
-<vertex x="-3" y="0" curve="89.991186"/>
-<vertex x="-0.4" y="-2.5"/>
-</polygon>
-</package>
-<package name="PETAL-LONG-2">
-<pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
-<polygon width="0.2032" layer="1">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-</package>
-<package name="PETAL-MEDIUM">
-<pad name="1" x="0" y="-0.254" drill="2.794"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-</package>
-<package name="PETAL-LARGE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
-</polygon>
-</package>
-<package name="PETAL-SMALL">
-<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
-<polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-</package>
 <package name="PETAL-SMALL-2SIDE">
+<description>&lt;h3&gt;Petal-Small &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.08in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
 <polygon width="0.2032" layer="1">
 <vertex x="-2.4" y="0.6" curve="96.730733"/>
@@ -260,33 +195,194 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="-2" curve="-96.730733"/>
 <vertex x="-2.4" y="0.6" curve="106.260205"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="PETAL-LARGE-2SIDE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
+<package name="PETAL-LONG-1">
+<description>&lt;h3&gt;Petal-Long&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has concave edge for aesthetic design. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.2in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
+<circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
+<pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
+<polygon width="0.2032" layer="1" spacing="0.4064">
+<vertex x="3.6" y="-1.9" curve="-110.088851"/>
+<vertex x="3.6" y="1.9"/>
+<vertex x="-0.4" y="2.5" curve="89.995593"/>
+<vertex x="-3" y="0" curve="89.991186"/>
+<vertex x="-0.4" y="-2.5"/>
+</polygon>
+<polygon width="0.2032" layer="29" spacing="0.4064">
+<vertex x="3.6" y="-1.9" curve="-110.088851"/>
+<vertex x="3.6" y="1.9"/>
+<vertex x="-0.4" y="2.5" curve="89.995593"/>
+<vertex x="-3" y="0" curve="89.991186"/>
+<vertex x="-0.4" y="-2.5"/>
+</polygon>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<text x="-1.27" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+</package>
+<package name="PETAL-LONG-2">
+<description>&lt;h3&gt;Petal-Long - 2&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has convex point. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.25in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-1.27" y="2.255" curve="9.397466"/>
+<vertex x="-2.436" y="0.05" curve="89.995576"/>
+<vertex x="0" y="-2.54" curve="89.990906"/>
+<vertex x="2.406" y="-0.02" curve="12.680383"/>
+<vertex x="1.27" y="2.255" curve="154.643527"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-1.27" y="2.255" curve="9.397466"/>
+<vertex x="-2.436" y="0.05" curve="89.995576"/>
+<vertex x="0" y="-2.54" curve="89.990906"/>
+<vertex x="2.406" y="-0.02" curve="12.680383"/>
+<vertex x="1.27" y="2.255" curve="154.643527"/>
+</polygon>
+<text x="-1.27" y="3.556" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-MEDIUM">
+<description>&lt;h3&gt;Petal-Medium &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="-0.254" drill="2.794"/>
 <polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<vertex x="0" y="-3.81" curve="90"/>
+<vertex x="3.81" y="0" curve="-73.739795"/>
+<vertex x="-3.81" y="0" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<vertex x="0" y="-3.81" curve="90"/>
+<vertex x="3.81" y="0" curve="-73.739795"/>
+<vertex x="-3.81" y="0" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-LARGE">
+<description>&lt;h3&gt;Petal-Large&lt;/h3&gt;
+Sew tap with petals for wearable applications. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.4in wide,0.15in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="1.524" layer="1"/>
+<pad name="1" x="0" y="1.016" drill="2.794"/>
+<hole x="0" y="1.016" drill="1.5"/>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="5.08" y="2.54" curve="-73.73763"/>
+<vertex x="-5.08" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="5.08" y="2.54" curve="-73.73763"/>
+<vertex x="-5.08" y="2.54" curve="90"/>
+</polygon>
+<text x="-1.27" y="3.048" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-SMALL">
+<description>&lt;h3&gt;Petal-Small &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.08in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-LARGE-2SIDE">
+<description>&lt;h3&gt;Petal-Large 2 Side&lt;/h3&gt;
+Sew tap with petals for wearable applications. Petals on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.4in wide,0.15in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="1.524" layer="1"/>
+<pad name="1" x="0" y="2.286" drill="2.794"/>
+<hole x="0" y="2.286" drill="1.5"/>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="5.08" y="3.81" curve="-73.73763"/>
+<vertex x="-5.08" y="3.81" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="5.08" y="3.81" curve="-73.73763"/>
+<vertex x="-5.08" y="3.81" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-5.08" y="3.81" curve="73.73763"/>
+<vertex x="5.08" y="3.81" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="16">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-5.08" y="3.81" curve="73.73763"/>
+<vertex x="5.08" y="3.81" curve="-90"/>
 </polygon>
+<text x="-1.27" y="4.445" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-MEDIUM-2SIDE">
+<description>&lt;h3&gt;Petal-Medium 2 Side &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap.Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="-0.254" drill="2.794"/>
 <polygon width="0.127" layer="1">
 <vertex x="0" y="-3.81" curve="90"/>
@@ -308,8 +404,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.81" y="0" curve="73.739795"/>
 <vertex x="3.81" y="0" curve="-90"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-LONG-1-2SIDE">
+<description>&lt;h3&gt;Petal-Long 2 Side&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has concave edge for aesthetic design. Petal on top and bottom layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.2in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
 <circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
 <pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
@@ -341,8 +449,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3" y="0" curve="-89.991186"/>
 <vertex x="-0.4" y="2.5"/>
 </polygon>
+<text x="-1.27" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-LONG-2-2SIDE">
+<description>&lt;h3&gt;Petal-Long - 2&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has convex point. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.25in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
 <polygon width="0.2032" layer="1">
 <vertex x="-1.27" y="2.255" curve="9.397466"/>
@@ -372,8 +492,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-2.436" y="0.05" curve="-9.397466"/>
 <vertex x="-1.27" y="2.255" curve="-154.643527"/>
 </polygon>
+<text x="-1.27" y="3.556" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-TINY">
+<description>&lt;h3&gt;Petal-Tiny &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.1in wide,0.05in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.04in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="1.016" diameter="2.032" rot="R90" stop="no" thermals="no"/>
 <polygon width="0.2032" layer="29">
 <vertex x="-1.27" y="-0.127"/>
@@ -415,25 +547,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.27" y="0.254"/>
 <vertex x="1.27" y="-0.127" curve="90"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="SEWTAP">
+<description>&lt;h3&gt;Sew Tap&lt;/h3&gt;
+&lt;p&gt;Basic connector for sew taps for wearable boards&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94" curve="180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SEWTAP" prefix="JP">
-<description>Sew Taps for LilyPad Boards.</description>
+<deviceset name="SEWTAP" prefix="J">
+<description>&lt;h3&gt;SparkFun LilyPad Sew Taps&lt;/h3&gt;
+&lt;p&gt;Sewable connection points for LilyPad Boards&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13342”&gt;LilyPad Arduino 328 Main Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/10899”&gt;LilyTiny&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11259”&gt;LilyPad Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SEWTAP" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="1" package="PETAL-LONG-1">
+<device name="_LONG" package="PETAL-LONG-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -441,7 +583,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="2" package="PETAL-LONG-2">
+<device name="_LONG_ROUND" package="PETAL-LONG-2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -449,7 +591,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="3" package="PETAL-MEDIUM">
+<device name="_MEDIUM" package="PETAL-MEDIUM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -457,7 +599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="5" package="PETAL-LARGE">
+<device name="_LARGE" package="PETAL-LARGE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -465,7 +607,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="4" package="PETAL-SMALL">
+<device name="_SMALL" package="PETAL-SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -473,7 +615,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="6" package="PETAL-SMALL-2SIDE">
+<device name="_SMALL-2SIDE" package="PETAL-SMALL-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -481,7 +623,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="7" package="PETAL-LARGE-2SIDE">
+<device name="_LARGE-2SIDE" package="PETAL-LARGE-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -489,7 +631,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="8" package="PETAL-MEDIUM-2SIDE">
+<device name="_MEDIUM-2SIDE" package="PETAL-MEDIUM-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -497,7 +639,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="9" package="PETAL-LONG-1-2SIDE">
+<device name="_LONG-2SIDE" package="PETAL-LONG-1-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -505,7 +647,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="10" package="PETAL-LONG-2-2SIDE">
+<device name="_LONG_ROUND-2SIDE" package="PETAL-LONG-2-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -513,7 +655,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="11" package="PETAL-TINY">
+<device name="_TINY" package="PETAL-TINY">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -534,19 +676,22 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603-RES">
-<wire x1="-1.6002" y1="0.6858" x2="1.6002" y2="0.6858" width="0.0508" layer="39"/>
-<wire x1="1.6002" y1="0.6858" x2="1.6002" y2="-0.6858" width="0.0508" layer="39"/>
-<wire x1="1.6002" y1="-0.6858" x2="-1.6002" y2="-0.6858" width="0.0508" layer="39"/>
-<wire x1="-1.6002" y1="-0.6858" x2="-1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -560,28 +705,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="150OHM-1/10W-1%(0603)" prefix="R" uservalue="yes">
-<description>RES-11028</description>
+<deviceset name="150OHM" prefix="R">
+<description>&lt;h3&gt;150Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603-RES">
+<device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD-ID" value="13326" constant="no"/>
-<attribute name="VALUE" value="150" constant="no"/>
+<attribute name="PROD_ID" value="RES-11028"/>
+<attribute name="VALUE" value="150"/>
 </technology>
 </technologies>
 </device>
@@ -599,33 +745,57 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="LED-1206">
-<wire x1="-1" y1="1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1" x2="-1" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1" x2="1" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
+
+1206, surface mount. 
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: &lt;/li&gt;
+&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="2.4" y1="0.6825" x2="2.4" y2="-0.6825" width="0.2032" layer="21"/>
 <smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
 <smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.65375" y1="0.6825" x2="0.65375" y2="-0.6825" width="0.2032" layer="51"/>
+<wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
+<wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
 </package>
 <package name="LED-0603">
-<wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
-<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
-<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
-<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
-<smd name="C" x="0" y="0.877" dx="1" dy="1" layer="1" roundness="30"/>
-<smd name="A" x="0" y="-0.877" dx="1" dy="1" layer="1" roundness="30"/>
-<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
 </package>
 <package name="LED-1206-BOTTOM">
+<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
+
+1206, surface mount. 
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
 <wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
 <wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
 <wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
@@ -661,41 +831,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.6" y="0.25"/>
 <vertex x="-1.6" y="0.5"/>
 </polygon>
-<wire x1="1.016" y1="1.016" x2="2.7686" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.7686" y1="-1.016" x2="1.016" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.3528" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.016" y1="-1.016" x2="-2.7686" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.7686" y1="-1.016" x2="-2.7686" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-2.7686" y1="1.016" x2="-1.016" y2="1.016" width="0.127" layer="21"/>
-<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.48741875" y1="-0.368296875" x2="-3.48741875" y2="0.3556" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.489959375" y1="0.37591875" x2="-3.48741875" y2="0.373378125" width="0.254" layer="21"/>
-<wire x1="-3.48741875" y1="0.373378125" x2="-3.48741875" y2="-0.370840625" width="0.254" layer="21"/>
-</package>
-<package name="LUXEON-REBEL">
-<smd name="ANODE" x="-1.39" y="2.63" dx="1.91" dy="2.03" layer="1" roundness="50"/>
-<smd name="CATHODE" x="1.39" y="2.63" dx="1.91" dy="2.03" layer="1" roundness="50"/>
-<smd name="P$3" x="0" y="-1.42" dx="4.68" dy="3.03" layer="1" roundness="50"/>
-<text x="-2.54" y="3.175" size="0.508" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="0.508" layer="27">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="22"/>
 </package>
 </packages>
 <symbols>
 <symbol name="LED">
+<description>&lt;h3&gt;LED&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;</description>
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-3.429" y="-4.572" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
 <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
@@ -712,9 +866,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="LED-PINK" prefix="D" uservalue="yes">
-<description>&lt;b&gt;Various Pink LEDs&lt;br&gt;&lt;br&gt;&lt;/b&gt;
-Pink LEDs used in SFE Production&lt;br&gt;&lt;br&gt;
-LILYPAD- DIO-10415&lt;br&gt;</description>
+<description>&lt;h3&gt;Pink SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://cdn.sparkfun.com/datasheets/Components/General/S1206PKSBJC.pdf"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/10962”&gt;LilyPad LED Pink&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -734,11 +895,20 @@ LILYPAD- DIO-10415&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="LED-RED" prefix="D" uservalue="yes">
-<description>Assorted Red LEDs&lt;br&gt;
-LilyPad 1206- DIO-09912&lt;br&gt;
-1206- DIO-00809&lt;br&gt;
-0603- DIO-00819&lt;br&gt;
-"SMART" means more efficient and expensive</description>
+<description>&lt;h3&gt;Red SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of most products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://docs.avagotech.com/docs/AV02-0551EN"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -767,18 +937,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </technology>
 </technologies>
 </device>
-<device name="LILYPAD" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09912"/>
-<attribute name="VALUE" value="RED" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="0603-SMART" package="LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -794,10 +952,22 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="LED-YELLOW" prefix="D" uservalue="yes">
-<description>Yellow SMD LEDs&lt;br&gt;
-LilyPad 1206- DIO-09909&lt;br&gt;
-0603- DIO-09003&lt;br&gt;
-"SMART" means more efficient and expensive</description>
+<description>&lt;h3&gt;Yellow SMD LED&lt;/h3&gt;
+
+Used in manufacturing several products at SparkFun. 
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; -  SMD 0603  package&lt;a href=http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608SYCK"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 0603 -SMART&lt;/b&gt; - SMART SMD 0603  package (more efficient/more expensive) &lt;a href="http://www.osram-os.com/osram_os/en/products/product-catalog/led-light-emitting-diodes/smartled-0603/ly-l29k/index.jsp"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; LilyPad&lt;/b&gt; - SMD1206  package&lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150YUS4.pdf"&gt;[Product Datasheet]&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13794”&gt;Blynk Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13225”&gt;XBee Explorer Serial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -826,18 +996,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 </technology>
 </technologies>
 </device>
-<device name="1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00820" constant="no"/>
-<attribute name="VALUE" value="YELLOW" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="0603-SMART" package="LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -853,11 +1011,22 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="LED-GREEN" prefix="D" uservalue="yes">
-<description>&lt;B&gt;Various green LEDs&lt;br&gt;&lt;br&gt;&lt;/B&gt;
-Green LEDs used in SFE Production&lt;br&gt;&lt;br&gt;
-0603- DIO-00821&lt;br&gt;
-LARGE- DIO-00862&lt;br&gt;
-LILYPAD- DIO-09910&lt;br&gt;</description>
+<description>&lt;h3&gt;Green SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11076”&gt;Makey Makey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -913,11 +1082,19 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="LED-BLUE" prefix="D" uservalue="yes">
-<description>&lt;H3&gt;Blue LEDs for production use&lt;/H3&gt;&lt;p&gt;
-Various blue LEDs stocked by SparkFun production&lt;br&gt;
-0603 - DIO-08575&lt;br&gt;
-Rebel - DIO-09553&lt;br&gt;
-1206 - DIO-09911</description>
+<description>&lt;h3&gt;Blue SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.digikey.com/product-detail/en/SMLE12BC7TT86/511-1589-2-ND/1641808"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;1206&lt;/b&gt; - SMD1206  package &lt;a href="http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C150TBKT/160-1643-1-ND/573584"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13711”&gt;ESP8266 Thing-Dev Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="2.54"/>
 </gates>
@@ -946,23 +1123,22 @@ Rebel - DIO-09553&lt;br&gt;
 </technology>
 </technologies>
 </device>
-<device name="REBEL" package="LUXEON-REBEL">
-<connects>
-<connect gate="G$1" pin="A" pad="ANODE"/>
-<connect gate="G$1" pin="C" pad="CATHODE"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09553"/>
-<attribute name="VALUE" value="BLUE"/>
-</technology>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="LED-WHITE" prefix="D" uservalue="yes">
-<description>White SMD LEDs&lt;br&gt;
-LilyPad 1206- DIO-09955</description>
+<description>&lt;h3&gt;White SMD LED&lt;/h3&gt;
+
+Used in manufacturing several products at SparkFun. 
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; - Bright White SMD 0603  package&lt;a href="http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608QWF/D"&gt;[Product Link]&lt;/li&gt;
+&lt;b&gt; 1206&lt;/b&gt; - Bright White SMD1206  package &lt;a href="http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT3216QWF/D"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13169”&gt;Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12651”&gt;Digital SandBox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -987,6 +1163,7 @@ LilyPad 1206- DIO-09955</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09004"/>
+<attribute name="VALUE" value="WHITE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1004,25 +1181,47 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
-<package name="DUMMY">
-<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
-</package>
 <package name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
+<package name="DUMMY">
+<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
+&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
+
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
+&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
 </packages>
 <symbols>
-<symbol name="LETTER_L">
+<symbol name="FRAME-LETTER">
+<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
+&lt;p&gt;Standard 8.5x11 US Ledger frame&lt;/p&gt;
+&lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
 </symbol>
 <symbol name="DOCFIELD">
+<description>&lt;h3&gt;Schematic Documentation Field&lt;/h3&gt;
+&lt;p&gt;Autofilling schematic symbol-layer info including board name, designer, revision, and save date.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME-LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
@@ -1055,15 +1254,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
 <symbol name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - Symbol&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="2.54" layer="94">Revision By: </text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
+<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
+&lt;p&gt;Standard 8.5x11 US Letter frame&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$1" symbol="FRAME-LETTER" x="0" y="0"/>
 <gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
@@ -1082,7 +1285,9 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REVISION">
+<deviceset name="REVISION" prefix="LOGO">
+<description>&lt;h3&gt;"Revision By" Text&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation. Includes schematic text on "symbols" layer, and board text on tDoc.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="REVISION" x="0" y="0"/>
 </gates>
@@ -1106,33 +1311,33 @@ Standard 8.5x11 US Letter frame</description>
 </class>
 </classes>
 <parts>
-<part name="LED+1" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-1" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
+<part name="LED+1" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-1" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="LED+2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
+<part name="LED+2" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-2" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED-PINK" device="1206" value="PINK"/>
-<part name="LED+3" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-3" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
-<part name="LED3" library="SparkFun-LED" deviceset="LED-RED" device="LILYPAD" value="RED"/>
-<part name="LED+4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
-<part name="LED4" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="YELLOW"/>
-<part name="LED+5" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-5" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
+<part name="LED+3" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-3" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
+<part name="LED3" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
+<part name="LED+4" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-4" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
+<part name="LED4" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="Yellow"/>
+<part name="LED+5" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-5" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="LED5" library="SparkFun-LED" deviceset="LED-GREEN" device="LILYPAD" value="GREEN"/>
-<part name="LED+6" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-6" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
+<part name="LED+6" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-6" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
-<part name="LED+7" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="LED-7" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="SEWTAP6"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
+<part name="LED+7" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="LED-7" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="LED7" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>

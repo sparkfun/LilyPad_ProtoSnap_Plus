@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -82,6 +82,7 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
@@ -501,18 +502,155 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="0.0268" y1="-1.0756" x2="0.8768" y2="-1.5756" width="0.2032" layer="21" curve="90"/>
 </package>
 <package name="PETAL-NOHOLE">
+<description>&lt;h3&gt;Petal- No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.2in wide, 0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
 </polygon>
 <polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
 </polygon>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-LARGE">
+<description>&lt;h3&gt;Petal-Large&lt;/h3&gt;
+Sew tap with petals for wearable applications. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.4in wide,0.15in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="1.524" layer="1"/>
+<pad name="1" x="0" y="1.016" drill="2.794"/>
+<hole x="0" y="1.016" drill="1.5"/>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="5.08" y="2.54" curve="-73.73763"/>
+<vertex x="-5.08" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-2.54" curve="90"/>
+<vertex x="5.08" y="2.54" curve="-73.73763"/>
+<vertex x="-5.08" y="2.54" curve="90"/>
+</polygon>
+<text x="-1.27" y="3.048" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-NOHOLE-2SIDE">
+<description>&lt;h3&gt;Petal- No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.2in wide, 0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="2.4" y="1.87" curve="-96.730733"/>
+<vertex x="0" y="-0.73" curve="-96.730733"/>
+<vertex x="-2.4" y="1.87" curve="106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="2.4" y="1.87" curve="-96.730733"/>
+<vertex x="0" y="-0.73" curve="-96.730733"/>
+<vertex x="-2.4" y="1.87" curve="106.260205"/>
+</polygon>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-MEDIUM-2SIDE-NOHOLE">
+<description>&lt;h3&gt;Petal-Medium 2-Side No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="16">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-3.81" y="2.54" curve="73.739795"/>
+<vertex x="3.81" y="2.54" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-3.81" y="2.54" curve="73.739795"/>
+<vertex x="3.81" y="2.54" curve="-90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-MEDIUM-NOHOLE">
+<description>&lt;h3&gt;Petal-Medium 2-Side No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-LONG-1">
+<description>&lt;h3&gt;Petal-Long&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has concave edge for aesthetic design. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.2in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
 <circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
 <pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
@@ -530,8 +668,20 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <vertex x="-3" y="0" curve="89.991186"/>
 <vertex x="-0.4" y="-2.5"/>
 </polygon>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<text x="-1.27" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 <package name="PETAL-LONG-2">
+<description>&lt;h3&gt;Petal-Long - 2&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has convex point. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.25in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
 <polygon width="0.2032" layer="1">
 <vertex x="-1.27" y="2.255" curve="9.397466"/>
@@ -547,43 +697,20 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <vertex x="2.406" y="-0.02" curve="12.680383"/>
 <vertex x="1.27" y="2.255" curve="154.643527"/>
 </polygon>
-</package>
-<package name="PETAL-SMALL">
-<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
-<polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-</package>
-<package name="PETAL-NOHOLE-2SIDE">
-<polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="2.4" y="0.6" curve="-96.730733"/>
-<vertex x="0" y="-2" curve="-96.730733"/>
-<vertex x="-2.4" y="0.6" curve="106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="30">
-<vertex x="2.4" y="0.6" curve="-96.730733"/>
-<vertex x="0" y="-2" curve="-96.730733"/>
-<vertex x="-2.4" y="0.6" curve="106.260205"/>
-</polygon>
+<text x="-1.27" y="3.556" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-MEDIUM">
+<description>&lt;h3&gt;Petal-Medium &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="-0.254" drill="2.794"/>
 <polygon width="0.127" layer="1">
 <vertex x="0" y="-3.81" curve="90"/>
@@ -595,23 +722,45 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <vertex x="3.81" y="0" curve="-73.739795"/>
 <vertex x="-3.81" y="0" curve="90"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="PETAL-LARGE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<package name="PETAL-SMALL">
+<description>&lt;h3&gt;Petal-Small &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.08in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
 </polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-SMALL-2SIDE">
+<description>&lt;h3&gt;Petal-Small &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.08in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
 <polygon width="0.2032" layer="1">
 <vertex x="-2.4" y="0.6" curve="96.730733"/>
@@ -633,33 +782,57 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <vertex x="0" y="-2" curve="-96.730733"/>
 <vertex x="-2.4" y="0.6" curve="106.260205"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-LARGE-2SIDE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
+<description>&lt;h3&gt;Petal-Large 2 Side&lt;/h3&gt;
+Sew tap with petals for wearable applications. Petals on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.4in wide,0.15in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="1.524" layer="1"/>
+<pad name="1" x="0" y="2.286" drill="2.794"/>
+<hole x="0" y="2.286" drill="1.5"/>
 <polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="5.08" y="3.81" curve="-73.73763"/>
+<vertex x="-5.08" y="3.81" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="5.08" y="3.81" curve="-73.73763"/>
+<vertex x="-5.08" y="3.81" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-5.08" y="3.81" curve="73.73763"/>
+<vertex x="5.08" y="3.81" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="16">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-5.08" y="3.81" curve="73.73763"/>
+<vertex x="5.08" y="3.81" curve="-90"/>
 </polygon>
+<text x="-1.27" y="4.445" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PETAL-MEDIUM-2SIDE">
+<description>&lt;h3&gt;Petal-Medium 2 Side &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap.Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="-0.254" drill="2.794"/>
 <polygon width="0.127" layer="1">
 <vertex x="0" y="-3.81" curve="90"/>
@@ -681,6 +854,151 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <vertex x="-3.81" y="0" curve="73.739795"/>
 <vertex x="3.81" y="0" curve="-90"/>
 </polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-LONG-1-2SIDE">
+<description>&lt;h3&gt;Petal-Long 2 Side&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has concave edge for aesthetic design. Petal on top and bottom layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.2in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
+<circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
+<pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
+<polygon width="0.2032" layer="1" spacing="0.4064">
+<vertex x="3.6" y="-1.9" curve="-110.088851"/>
+<vertex x="3.6" y="1.9"/>
+<vertex x="-0.4" y="2.5" curve="89.995593"/>
+<vertex x="-3" y="0" curve="89.991186"/>
+<vertex x="-0.4" y="-2.5"/>
+</polygon>
+<polygon width="0.2032" layer="29" spacing="0.4064">
+<vertex x="3.6" y="-1.9" curve="-110.088851"/>
+<vertex x="3.6" y="1.9"/>
+<vertex x="-0.4" y="2.5" curve="89.995593"/>
+<vertex x="-3" y="0" curve="89.991186"/>
+<vertex x="-0.4" y="-2.5"/>
+</polygon>
+<polygon width="0.2032" layer="30" spacing="0.4064">
+<vertex x="3.6" y="1.9" curve="110.088851"/>
+<vertex x="3.6" y="-1.9"/>
+<vertex x="-0.4" y="-2.5" curve="-89.995593"/>
+<vertex x="-3" y="0" curve="-89.991186"/>
+<vertex x="-0.4" y="2.5"/>
+</polygon>
+<polygon width="0.2032" layer="16" spacing="0.4064">
+<vertex x="3.6" y="1.9" curve="110.088851"/>
+<vertex x="3.6" y="-1.9"/>
+<vertex x="-0.4" y="-2.5" curve="-89.995593"/>
+<vertex x="-3" y="0" curve="-89.991186"/>
+<vertex x="-0.4" y="2.5"/>
+</polygon>
+<text x="-1.27" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-LONG-2-2SIDE">
+<description>&lt;h3&gt;Petal-Long - 2&lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal surronds sew tap and has convex point. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.25in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.11in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-1.27" y="2.255" curve="9.397466"/>
+<vertex x="-2.436" y="0.05" curve="89.995576"/>
+<vertex x="0" y="-2.54" curve="89.990906"/>
+<vertex x="2.406" y="-0.02" curve="12.680383"/>
+<vertex x="1.27" y="2.255" curve="154.643527"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-1.27" y="2.255" curve="9.397466"/>
+<vertex x="-2.436" y="0.05" curve="89.995576"/>
+<vertex x="0" y="-2.54" curve="89.990906"/>
+<vertex x="2.406" y="-0.02" curve="12.680383"/>
+<vertex x="1.27" y="2.255" curve="154.643527"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="1.27" y="2.255" curve="-12.680383"/>
+<vertex x="2.406" y="-0.02" curve="-89.995453"/>
+<vertex x="0" y="-2.54" curve="-89.991152"/>
+<vertex x="-2.436" y="0.05" curve="9.397466"/>
+<vertex x="-1.27" y="2.255" curve="-154.643527"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="1.27" y="2.255" curve="-12.680383"/>
+<vertex x="2.406" y="-0.02" curve="-89.995453"/>
+<vertex x="0" y="-2.54" curve="-89.991152"/>
+<vertex x="-2.436" y="0.05" curve="-9.397466"/>
+<vertex x="-1.27" y="2.255" curve="-154.643527"/>
+</polygon>
+<text x="-1.27" y="3.556" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-TINY">
+<description>&lt;h3&gt;Petal-Tiny &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.1in wide,0.05in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.04in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.032" rot="R90" stop="no" thermals="no"/>
+<polygon width="0.2032" layer="29">
+<vertex x="-1.27" y="-0.127"/>
+<vertex x="-1.27" y="0.254" curve="-90"/>
+<vertex x="0" y="1.524" curve="-90"/>
+<vertex x="1.27" y="0.254"/>
+<vertex x="1.27" y="-0.127" curve="90"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="-1.27" y="-0.127"/>
+<vertex x="-1.27" y="0.254" curve="-90"/>
+<vertex x="0" y="1.524" curve="-90"/>
+<vertex x="1.27" y="0.254"/>
+<vertex x="1.27" y="-0.127" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0.0025" y="-0.9525" curve="-90"/>
+<vertex x="-0.9524" y="-0.0228" curve="-90.011749"/>
+<vertex x="0" y="0.9526" curve="-90"/>
+<vertex x="0.95" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-0.4445" curve="-90.012891"/>
+<vertex x="-0.4445" y="-0.0203" curve="-90"/>
+<vertex x="0" y="0.447" curve="-90"/>
+<vertex x="0.4419" y="-0.0101" curve="-90.012967"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="1.27" y="-0.127"/>
+<vertex x="1.27" y="0.254" curve="90"/>
+<vertex x="0" y="1.524" curve="90"/>
+<vertex x="-1.27" y="0.254"/>
+<vertex x="-1.27" y="-0.127" curve="-90"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="-1.27" y="-0.127"/>
+<vertex x="-1.27" y="0.254" curve="-90"/>
+<vertex x="0" y="1.524" curve="-90"/>
+<vertex x="1.27" y="0.254"/>
+<vertex x="1.27" y="-0.127" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -691,13 +1009,21 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-0.762" y="0" size="1.9304" layer="94">LillyPad</text>
 </symbol>
-<symbol name="SEWTAP-NOHOLE">
+<symbol name="SEWTAP-NO_CONNECTION">
+<description>&lt;h3&gt;SparkFun SewTap without Holes&lt;/h3&gt;
+&lt;p&gt;Symbol for aesthetic sew tap - no holes, and no connections available&lt;/p&gt;</description>
 <wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="0" y="1.27" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="SEWTAP">
+<description>&lt;h3&gt;Sew Tap&lt;/h3&gt;
+&lt;p&gt;Basic connector for sew taps for wearable boards&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94" curve="180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -723,29 +1049,54 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SEWTAP-NOHOLE">
+<deviceset name="SEWTAP-NOHOLE" prefix="J">
+<description>&lt;h3&gt;SparkFun LilyPad Sew Taps without Holes&lt;/h3&gt;
+&lt;p&gt;Petals used for PCB aesthetics. No connection points for circuits, and no hole available for sewing.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11008"&gt; LilyPad Vibe Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9267"&gt; LilyPad Accelerometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/8463"&gt;LilyPad Buzzer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SEWTAP-NOHOLE" x="0" y="0"/>
+<gate name="G$1" symbol="SEWTAP-NO_CONNECTION" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1" package="PETAL-NOHOLE">
+<device name="&quot;" package="PETAL-NOHOLE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2" package="PETAL-NOHOLE-2SIDE">
+<device name="_2SIDE" package="PETAL-NOHOLE-2SIDE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MEDIUM-2SIDE" package="PETAL-MEDIUM-2SIDE-NOHOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MEDIUM" package="PETAL-MEDIUM-NOHOLE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SEWTAP">
+<deviceset name="SEWTAP" prefix="J">
+<description>&lt;h3&gt;SparkFun LilyPad Sew Taps&lt;/h3&gt;
+&lt;p&gt;Sewable connection points for LilyPad Boards&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13342”&gt;LilyPad Arduino 328 Main Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/10899”&gt;LilyTiny&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11259”&gt;LilyPad Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SEWTAP" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="1" package="PETAL-LONG-1">
+<device name="_LONG" package="PETAL-LONG-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -753,7 +1104,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2" package="PETAL-LONG-2">
+<device name="_LONG_ROUND" package="PETAL-LONG-2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -761,7 +1112,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="3" package="PETAL-MEDIUM">
+<device name="_MEDIUM" package="PETAL-MEDIUM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -769,7 +1120,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5" package="PETAL-LARGE">
+<device name="_LARGE" package="PETAL-LARGE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -777,7 +1128,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="4" package="PETAL-SMALL">
+<device name="_SMALL" package="PETAL-SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -785,7 +1136,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="6" package="PETAL-SMALL-2SIDE">
+<device name="_SMALL-2SIDE" package="PETAL-SMALL-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -793,7 +1144,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="7" package="PETAL-LARGE-2SIDE">
+<device name="_LARGE-2SIDE" package="PETAL-LARGE-2SIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -801,7 +1152,31 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="8" package="PETAL-MEDIUM-2SIDE">
+<device name="_MEDIUM-2SIDE" package="PETAL-MEDIUM-2SIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LONG-2SIDE" package="PETAL-LONG-1-2SIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LONG_ROUND-2SIDE" package="PETAL-LONG-2-2SIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TINY" package="PETAL-TINY">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -824,12 +1199,12 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
-<part name="U$1" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="2"/>
-<part name="U$6" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="2"/>
-<part name="U$7" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="2"/>
-<part name="U$8" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="U$9" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="U$4" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="2"/>
+<part name="U$1" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="&quot;"/>
+<part name="U$6" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="&quot;"/>
+<part name="U$7" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="&quot;"/>
+<part name="U$8" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL" value="SEWTAP_SMALL"/>
+<part name="U$9" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL" value="SEWTAP_SMALL"/>
+<part name="U$4" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="&quot;"/>
 <part name="U$2" library="LilyPad-Wearables" deviceset="LOGO-LP" device="LP"/>
 <part name="B1" library="SparkFun" deviceset="BUZZER" device="SMD2" value="Buzzer"/>
 </parts>
