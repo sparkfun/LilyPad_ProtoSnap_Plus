@@ -23572,20 +23572,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$4" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$5" library="newLilypadParts" deviceset="ATMEGA32U4_NOARD" device="QFN" value="32U4"/>
-<part name="J1" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J2" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J3" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J4" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J5" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J6" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J7" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J8" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J9" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J10" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J11" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J12" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J13" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
-<part name="J14" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG"/>
+<part name="J1" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J2" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J3" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J4" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J5" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J6" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J7" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J8" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J9" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J10" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J11" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J12" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J13" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
+<part name="J14" library="LilyPad-Wearables" deviceset="SEWTAP" device="_LONG-2SIDE" value="SEWTAP_LONG-2SIDE"/>
 <part name="U$6" library="newLilypadParts" deviceset="SUNLED" device="SMD1" value="XZM2CRKM2DGFBB45SCCB"/>
 <part name="LED5" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
@@ -23623,8 +23623,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$35" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="_SM_NH" value="SEWTAP-NOHOLE_SM_NH"/>
 <part name="U$36" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="_SM_NH" value="SEWTAP-NOHOLE_SM_NH"/>
 <part name="U$37" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="_SM_NH" value="SEWTAP-NOHOLE_SM_NH"/>
-<part name="U$38" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL" value="SEWTAP_SMALL"/>
-<part name="U$39" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL" value="SEWTAP_SMALL"/>
+<part name="U$38" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
+<part name="U$39" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
 <part name="U$40" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="_SM_NH" value="SEWTAP-NOHOLE_SM_NH"/>
 <part name="B1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="-SMD" value="Buzzer"/>
 <part name="ST3" library="LilyPad-Wearables" deviceset="SEWTAP-NOHOLE" device="_SM_NH" value="SEWTAP-NOHOLE_SM_NH"/>
