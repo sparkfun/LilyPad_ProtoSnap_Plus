@@ -21275,7 +21275,7 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NEW-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="DIO-13722" constant="no"/>
 <attribute name="VALUE" value="XZM2CRKM2DGFBB45SCCB" constant="no"/>
 </technology>
 </technologies>

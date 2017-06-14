@@ -4023,7 +4023,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J13" library="LilyPad-Wearables" package="PETAL-LONG-1" value="SEWTAP_LONG" x="16.34998125" y="14.721840625" rot="R222"/>
 <element name="J14" library="LilyPad-Wearables" package="PETAL-LONG-1" value="SEWTAP_LONG" x="8.94841875" y="20.09901875" rot="R246"/>
 <element name="U$6" library="newLilypadParts" package="PLCC4SMDLED" value="XZM2CRKM2DGFBB45SCCB" x="0" y="0" rot="R270">
-<attribute name="PROD_ID" value="NEW-XXXXX" x="0" y="0" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="DIO-13722" x="0" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED5" library="SparkFun-LED" package="LED-0603" value="WHITE" x="-3.889375" y="0" rot="R90">
 <attribute name="PROD_ID" value="DIO-09004" x="-3.889375" y="0" size="1.778" layer="27" rot="R90" display="off"/>
