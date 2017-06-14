@@ -23616,7 +23616,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="P+6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="R14" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
 <part name="U$13" library="newLilypadParts" deviceset="LILYLOGO_SHORT" device=""/>
@@ -23639,8 +23639,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D4" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="Yellow"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
-<part name="R26" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
 <part name="R27" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="R28" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="JP21" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
@@ -23657,8 +23657,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D7" library="SparkFun-LED" deviceset="LED-GREEN" device="LILYPAD" value="GREEN"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
-<part name="R29" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
 <part name="R31" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="R32" library="SparkFun-Resistors" deviceset="150OHM" device="-0603-1/10W-1%" value="150"/>
 <part name="JP1" library="LilyPad-Wearables" deviceset="SEWTAP" device="_SMALL-2SIDE" value="SEWTAP_SMALL-2SIDE"/>
