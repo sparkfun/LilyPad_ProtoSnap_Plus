@@ -23865,6 +23865,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO6" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="D10" library="newLilypadParts" deviceset="SUNLED" device="SMD1" value="XZM2CRKM2DGFBB45SCCB"/>
+<part name="TP5" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
+<part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
+<part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="P+9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
+<part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 </parts>
 <sheets>
 <sheet>
@@ -24070,7 +24076,7 @@ L. Buechly and N. Seidle</text>
 <instance part="SUPPLY2" gate="G$2" x="208.28" y="175.26"/>
 <instance part="U$2" gate="G$1" x="233.68" y="175.26"/>
 <instance part="U2" gate="G$1" x="129.54" y="40.64"/>
-<instance part="GND4" gate="1" x="116.84" y="25.4"/>
+<instance part="GND4" gate="1" x="116.84" y="30.48"/>
 <instance part="GND15" gate="1" x="93.98" y="25.4"/>
 <instance part="TP1" gate="G$1" x="101.6" y="93.98" smashed="yes">
 <attribute name="NAME" x="96.52" y="93.98" size="1.778" layer="95" font="vector"/>
@@ -24107,6 +24113,12 @@ L. Buechly and N. Seidle</text>
 <instance part="LOGO5" gate="G$1" x="233.68" y="53.34"/>
 <instance part="LOGO6" gate="G$1" x="233.68" y="53.34"/>
 <instance part="D10" gate="G1" x="157.48" y="157.48"/>
+<instance part="TP5" gate="G$1" x="167.64" y="58.42" rot="R180"/>
+<instance part="TP6" gate="G$1" x="167.64" y="68.58" rot="R180"/>
+<instance part="GND28" gate="1" x="172.72" y="53.34"/>
+<instance part="P+9" gate="G$1" x="172.72" y="73.66"/>
+<instance part="TP7" gate="G$1" x="93.98" y="48.26" rot="R90"/>
+<instance part="TP8" gate="G$1" x="109.22" y="22.86"/>
 </instances>
 <busses>
 </busses>
@@ -24114,10 +24126,14 @@ L. Buechly and N. Seidle</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="15.24" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
+<junction x="101.6" y="22.86"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="22.86" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -24127,8 +24143,12 @@ L. Buechly and N. Seidle</text>
 <wire x1="83.82" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="50.8" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="88.9" y="45.72"/>
+<junction x="93.98" y="45.72"/>
+<wire x1="93.98" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="45.72" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
@@ -24281,12 +24301,18 @@ L. Buechly and N. Seidle</text>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="119.38" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="35.56" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="35.56" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="30.48" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="167.64" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -24392,6 +24418,12 @@ L. Buechly and N. Seidle</text>
 <wire x1="198.12" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <junction x="198.12" y="104.14"/>
 <pinref part="P+5" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="1"/>
+<pinref part="P+9" gate="G$1" pin="3.3V"/>
+<wire x1="167.64" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="68.58" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
