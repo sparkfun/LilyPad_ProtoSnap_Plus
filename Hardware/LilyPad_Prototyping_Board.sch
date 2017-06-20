@@ -23886,7 +23886,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="195.834" y="151.13" size="1.27" layer="97">32u4 BYPASS</text>
 <text x="220.98" y="151.13" size="1.27" layer="97">MIC5219 BYPASS</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v01</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v03</text>
 <text x="149.86" y="38.1" size="2.54" layer="94">LilyPad concept and shapes by:
 L. Buechly and N. Seidle</text>
 <wire x1="223.52" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
@@ -24919,7 +24919,7 @@ sew taps</text>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="93.98" width="0.1524" layer="97" style="longdash"/>
 <text x="53.34" y="86.36" size="1.778" layer="97">Buzzer</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v01</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v03</text>
 <text x="60.96" y="25.4" size="1.778" layer="97">Un-used
 sew taps</text>
 <wire x1="96.52" y1="2.54" x2="96.52" y2="93.98" width="0.1524" layer="97" style="longdash"/>
