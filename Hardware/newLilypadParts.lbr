@@ -1372,6 +1372,150 @@ Sew tap with petal for wearable applications. Petal surronds sew tap and has con
 <rectangle x1="-2" y1="0.5" x2="-0.5" y2="2" layer="1"/>
 <smd name="EPAD" x="0" y="0" dx="5.3" dy="5.3" layer="1" cream="no"/>
 </package>
+<package name="PETAL-SMALL-NOHOLE">
+<description>&lt;h3&gt;Petal-Small &lt;/h3&gt;
+Sew tap with petal for wearable applications. Petal overlaps sew tap. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;li&gt;Petal Size: 0.2in wide,0.1in height  &lt;/li&gt;
+&lt;li&gt;Drill Hit: 0.08in  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="0.6" curve="96.730733"/>
+<vertex x="0" y="-2" curve="96.730733"/>
+<vertex x="2.4" y="0.6" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="2.4" y="0.6" curve="-96.730733"/>
+<vertex x="0" y="-2" curve="-96.730733"/>
+<vertex x="-2.4" y="0.6" curve="106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="2.4" y="0.6" curve="-96.730733"/>
+<vertex x="0" y="-2" curve="-96.730733"/>
+<vertex x="-2.4" y="0.6" curve="106.260205"/>
+</polygon>
+</package>
+<package name="PETAL-NOHOLE">
+<description>&lt;h3&gt;Petal- No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.2in wide, 0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-NOHOLE-2SIDE">
+<description>&lt;h3&gt;Petal- No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.2in wide, 0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="-2.4" y="1.87" curve="96.730733"/>
+<vertex x="0" y="-0.73" curve="96.730733"/>
+<vertex x="2.4" y="1.87" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="2.4" y="1.87" curve="-96.730733"/>
+<vertex x="0" y="-0.73" curve="-96.730733"/>
+<vertex x="-2.4" y="1.87" curve="106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="2.4" y="1.87" curve="-96.730733"/>
+<vertex x="0" y="-0.73" curve="-96.730733"/>
+<vertex x="-2.4" y="1.87" curve="106.260205"/>
+</polygon>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-MEDIUM-2SIDE-NOHOLE">
+<description>&lt;h3&gt;Petal-Medium 2-Side No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal on top and bottom layers.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="16">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-3.81" y="2.54" curve="73.739795"/>
+<vertex x="3.81" y="2.54" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0" y="-1.27" curve="-90"/>
+<vertex x="-3.81" y="2.54" curve="73.739795"/>
+<vertex x="3.81" y="2.54" curve="-90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+<package name="PETAL-MEDIUM-NOHOLE">
+<description>&lt;h3&gt;Petal-Medium 2-Side No Hole &lt;/h3&gt;
+Petal for wearable applications. No sew tap present- this is only for aesthetics on the board. Petal only on top layer.
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Petal Size: 0.3in wide,0.1in height  &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SEWTAP-NOHOLE&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-1.27" curve="90"/>
+<vertex x="3.81" y="2.54" curve="-73.739795"/>
+<vertex x="-3.81" y="2.54" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED-RGB-CC">
@@ -1463,6 +1607,13 @@ Sew tap with petal for wearable applications. Petal surronds sew tap and has con
 <pin name="1" x="-2.54" y="0" visible="off" length="point" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="SEWTAP-NO_CONNECTION">
+<description>&lt;h3&gt;SparkFun SewTap without Holes&lt;/h3&gt;
+&lt;p&gt;Symbol for aesthetic sew tap - no holes, and no connections available&lt;/p&gt;</description>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="0" y="1.27" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1883,6 +2034,46 @@ Sew tap with petal for wearable applications. Petal surronds sew tap and has con
 </gates>
 <devices>
 <device name="" package="LILYPAD-WEARABLES_LOGO-L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEWTAP-NOHOLE" prefix="J">
+<description>&lt;h3&gt;SparkFun LilyPad Sew Taps without Holes&lt;/h3&gt;
+&lt;p&gt;Petals used for PCB aesthetics. No connection points for circuits, and no hole available for sewing.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11008"&gt; LilyPad Vibe Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9267"&gt; LilyPad Accelerometer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/8463"&gt;LilyPad Buzzer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SEWTAP-NO_CONNECTION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;" package="PETAL-NOHOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_2SIDE" package="PETAL-NOHOLE-2SIDE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MEDIUM-2SIDE" package="PETAL-MEDIUM-2SIDE-NOHOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MEDIUM" package="PETAL-MEDIUM-NOHOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SM_NH" package="PETAL-SMALL-NOHOLE">
 <technologies>
 <technology name=""/>
 </technologies>
