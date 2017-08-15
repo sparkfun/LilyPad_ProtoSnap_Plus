@@ -20796,40 +20796,38 @@ Diode with low voltage drop</description>
 </package>
 <package name="GATOR_HOLES">
 <pad name="P$1" x="0" y="0" drill="4.0005" diameter="5.08" stop="no" thermals="no"/>
-<pad name="P$2" x="6.35" y="0" drill="4.0005" diameter="5.08" stop="no" thermals="no"/>
+<pad name="P$2" x="5.715" y="0" drill="4.0005" diameter="5.08" stop="no" thermals="no"/>
 <polygon width="0.127" layer="1">
-<vertex x="3.81" y="3.175"/>
-<vertex x="6.35" y="3.175" curve="-90"/>
-<vertex x="9.525" y="0" curve="-90"/>
-<vertex x="6.35" y="-3.175"/>
+<vertex x="0" y="3.175"/>
+<vertex x="5.715" y="3.175" curve="-90"/>
+<vertex x="8.89" y="0" curve="-90"/>
+<vertex x="5.715" y="-3.175"/>
 <vertex x="0" y="-3.175" curve="-90"/>
 <vertex x="-3.175" y="0" curve="-90"/>
-<vertex x="0" y="3.175"/>
 </polygon>
 <polygon width="0.127" layer="16">
-<vertex x="2.54" y="3.175"/>
+<vertex x="5.715" y="3.175"/>
 <vertex x="0" y="3.175" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
 <vertex x="0" y="-3.175"/>
-<vertex x="6.35" y="-3.175" curve="90"/>
-<vertex x="9.525" y="0" curve="90"/>
-<vertex x="6.35" y="3.175"/>
+<vertex x="5.715" y="-3.175" curve="90"/>
+<vertex x="8.89" y="0" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="6.35" y="3.175"/>
+<vertex x="5.715" y="3.175"/>
 <vertex x="0" y="3.175" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
 <vertex x="0" y="-3.175"/>
-<vertex x="6.35" y="-3.175" curve="90"/>
-<vertex x="9.525" y="0" curve="90"/>
+<vertex x="5.715" y="-3.175" curve="90"/>
+<vertex x="8.89" y="0" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="6.35" y="3.175"/>
+<vertex x="5.715" y="3.175"/>
 <vertex x="0" y="3.175" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
 <vertex x="0" y="-3.175"/>
-<vertex x="6.35" y="-3.175" curve="90"/>
-<vertex x="9.525" y="0" curve="90"/>
+<vertex x="5.715" y="-3.175" curve="90"/>
+<vertex x="8.89" y="0" curve="90"/>
 </polygon>
 </package>
 <package name="LILYPAD-WEARABLES_LOGO-L">
@@ -23843,7 +23841,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"/>
+<part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" value="MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT"/>
 <part name="U$52/SCL1" library="newLilypadParts" deviceset="GATOR_HOLE_PAIR" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="U$44" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
@@ -23886,7 +23884,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="195.834" y="151.13" size="1.27" layer="97">32u4 BYPASS</text>
 <text x="220.98" y="151.13" size="1.27" layer="97">MIC5219 BYPASS</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v03</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
 <text x="149.86" y="38.1" size="2.54" layer="94">LilyPad concept and shapes by:
 L. Buechly and N. Seidle</text>
 <wire x1="223.52" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
