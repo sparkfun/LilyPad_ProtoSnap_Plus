@@ -23692,10 +23692,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R7" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330">
 <attribute name="PROD_ID" value="RES-00818"/>
 </part>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED">
-<attribute name="PROD_ID" value="DIO-00819"/>
-</part>
-<part name="LED3" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED">
+<part name="LED2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="LED3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN">
 <attribute name="PROD_ID" value="DIO-00819"/>
 </part>
 <part name="LED4" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
@@ -23854,8 +23852,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$1" library="newLilypadParts" deviceset="LILYLOGO_SHORT" device=""/>
-<part name="U$43" library="newLilypadParts" deviceset="LILYLOGO_ABR" device=""/>
-<part name="U$72" library="newLilypadParts" deviceset="LILYLOGO_ABR" device=""/>
 <part name="U$73" library="newLilypadParts" deviceset="LILYLOGO_ABR" device=""/>
 <part name="JP11" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP14" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -24102,8 +24098,6 @@ L. Buechly and N. Seidle</text>
 <instance part="LOGO1" gate="G$1" x="88.9" y="0"/>
 <instance part="LOGO2" gate="G$1" x="134.62" y="15.24"/>
 <instance part="U$1" gate="G$1" x="220.98" y="38.1"/>
-<instance part="U$43" gate="G$1" x="236.22" y="38.1"/>
-<instance part="U$72" gate="G$1" x="236.22" y="38.1"/>
 <instance part="U$73" gate="G$1" x="236.22" y="38.1"/>
 <instance part="JP11" gate="G$1" x="236.22" y="25.4"/>
 <instance part="JP14" gate="G$1" x="241.3" y="25.4"/>
