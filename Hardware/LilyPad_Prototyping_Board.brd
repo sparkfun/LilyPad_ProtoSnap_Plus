@@ -1387,6 +1387,9 @@
 <vertex x="-51.054" y="-6.4190875"/>
 </polygon>
 <hole x="-32.385" y="29.845" drill="0.508"/>
+<text x="-49.53" y="-92.71" size="1.778" layer="51" align="top-left">0.015 inch holes NPTH</text>
+<text x="-49.53" y="-96.52" size="1.778" layer="51" align="top-left">0.020 inch holes NPTH</text>
+<text x="-49.53" y="-100.33" size="1.778" layer="51" align="top-left">All other holes PTH</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -4648,7 +4651,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="10.287" y1="6.04100625" x2="10.287003125" y2="6.041003125" width="0.254" layer="1"/>
 <wire x1="16.217003125" y1="4.737996875" x2="14.913996875" y2="6.041003125" width="0.6096" layer="1"/>
 <wire x1="14.913996875" y1="6.041003125" x2="14.254565625" y2="6.041003125" width="0.6096" layer="1"/>
-<via x="14.254565625" y="6.041003125" extent="1-16" drill="0.381"/>
+<via x="14.254565625" y="6.041003125" extent="1-16" drill="0.3302"/>
 <wire x1="13.49375" y1="5.55625" x2="11.58875" y2="5.55625" width="0.6096" layer="1"/>
 <wire x1="11.58875" y1="5.55625" x2="11.103996875" y2="6.041003125" width="0.6096" layer="1"/>
 <wire x1="11.103996875" y1="6.041003125" x2="10.287003125" y2="6.041003125" width="0.6096" layer="1"/>
