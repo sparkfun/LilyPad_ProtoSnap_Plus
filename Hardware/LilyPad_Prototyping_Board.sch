@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23865,6 +23865,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
+<part name="U$43" library="newLilypadParts" deviceset="LILYLOGO_SHORT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24111,6 +24112,7 @@ L. Buechly and N. Seidle</text>
 <instance part="P+9" gate="G$1" x="172.72" y="73.66"/>
 <instance part="TP7" gate="G$1" x="93.98" y="48.26" rot="R90"/>
 <instance part="TP8" gate="G$1" x="109.22" y="22.86"/>
+<instance part="U$43" gate="G$1" x="220.98" y="38.1"/>
 </instances>
 <busses>
 </busses>
