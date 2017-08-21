@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24061,6 +24061,8 @@ L. Buechly and N. Seidle</text>
 <wire x1="0" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="97" style="longdash"/>
 <text x="83.82" y="68.58" size="2.032" layer="97" font="vector">Charge current factory set to 100mA
 I_CHG = 1000/R2</text>
+<text x="5.08" y="5.08" size="2.032" layer="97" font="vector">Supply 5.0V from USB, or
+3.3-4.2V on battery connector.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="73.66" y="43.18">
@@ -24108,11 +24110,15 @@ I_CHG = 1000/R2</text>
 <instance part="R7" gate="G$1" x="139.7" y="93.98" rot="R180">
 <attribute name="PROD_ID" x="139.7" y="93.98" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="147.32" y="99.06" rot="R270">
+<instance part="LED2" gate="G$1" x="147.32" y="99.06" smashed="yes" rot="R270">
 <attribute name="PROD_ID" x="147.32" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="142.748" y="105.791" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="142.748" y="104.775" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="LED3" gate="G$1" x="154.94" y="93.98" rot="R270">
+<instance part="LED3" gate="G$1" x="154.94" y="93.98" smashed="yes" rot="R270">
 <attribute name="PROD_ID" x="154.94" y="93.98" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="150.368" y="89.789" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="150.368" y="88.773" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="LED4" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="R90">
 <attribute name="PROD_ID" x="144.78" y="116.84" size="1.27" layer="96" rot="R90" display="off"/>
@@ -24158,8 +24164,8 @@ I_CHG = 1000/R2</text>
 <instance part="D1" gate="G$1" x="101.6" y="45.72">
 <attribute name="PROD_ID" x="101.6" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND11" gate="1" x="27.94" y="10.16"/>
-<instance part="U$4" gate="G$1" x="27.94" y="20.32"/>
+<instance part="GND11" gate="1" x="27.94" y="17.78"/>
+<instance part="U$4" gate="G$1" x="27.94" y="27.94"/>
 <instance part="GND12" gate="1" x="165.1" y="109.22"/>
 <instance part="U5" gate="G1" x="63.5" y="124.46"/>
 <instance part="J1" gate="G$1" x="203.2" y="104.14" smashed="yes"/>
@@ -24222,7 +24228,7 @@ I_CHG = 1000/R2</text>
 <attribute name="VALUE" x="5.08" y="40.386" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="33.02" y="43.18" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J16" gate="G$1" x="20.32" y="15.24" rot="R90"/>
+<instance part="J16" gate="G$1" x="20.32" y="22.86" rot="R90"/>
 <instance part="GND10" gate="1" x="10.16" y="106.68"/>
 <instance part="SUPPLY1" gate="G$2" x="109.22" y="50.8"/>
 <instance part="SUPPLY5" gate="G$2" x="66.04" y="20.32"/>
@@ -24314,8 +24320,8 @@ I_CHG = 1000/R2</text>
 <wire x1="93.98" y1="45.72" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="V_BATT"/>
 <pinref part="J16" gate="G$1" pin="+"/>
 </segment>
@@ -24408,8 +24414,8 @@ I_CHG = 1000/R2</text>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J16" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -25082,7 +25088,7 @@ sew taps</text>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="93.98" width="0.1524" layer="97" style="longdash"/>
 <text x="53.34" y="86.36" size="1.778" layer="97">Buzzer</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v03</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
 <text x="60.96" y="25.4" size="1.778" layer="97">Un-used
 sew taps</text>
 <wire x1="96.52" y1="2.54" x2="96.52" y2="93.98" width="0.1524" layer="97" style="longdash"/>

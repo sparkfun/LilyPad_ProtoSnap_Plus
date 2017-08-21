@@ -19,13 +19,13 @@
 <layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
@@ -31564,7 +31564,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP8" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="13.335" y="-5.08" rot="MR0"/>
 <element name="U$5" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="-42.2671875" y="13.97" rot="MR90"/>
 <element name="U$6" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="-42.2671875" y="-11.43" rot="MR90"/>
-<element name="U$43" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="-21.082" y="22.86"/>
+<element name="U$43" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="-21.082" y="22.5425"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -33174,7 +33174,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="4.4211875" y1="17.5021875" x2="4.8021875" y2="17.5021875" width="0.254" layer="16"/>
 <wire x1="1.7435" y1="8.389996875" x2="0.333440625" y2="8.389996875" width="0.2032" layer="1"/>
 <wire x1="0.333440625" y1="8.389996875" x2="0.3334375" y2="8.39" width="0.2032" layer="1"/>
-<wire x1="3.937" y1="19.2801875" x2="3.936996875" y2="19.240503125" width="0" layer="19" extent="1-1"/>
+<wire x1="3.936996875" y1="19.240503125" x2="3.937" y2="19.240503125" width="0.4064" layer="1"/>
+<wire x1="3.937" y1="19.240503125" x2="3.937" y2="19.2801875" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R16" pad="1"/>
