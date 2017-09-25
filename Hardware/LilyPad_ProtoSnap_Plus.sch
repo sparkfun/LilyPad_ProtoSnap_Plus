@@ -24083,7 +24083,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
 <text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
 <text x="149.86" y="38.1" size="2.54" layer="94">LilyPad concept and shapes by:
-L. Buechly and N. Seidle</text>
+L. Buechley and N. Seidle</text>
 <wire x1="223.52" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="246.38" y1="182.88" x2="246.38" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="246.38" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
