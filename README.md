@@ -1,22 +1,25 @@
-SparkFun LilyPad Prototyping Board
+SparkFun LilyPad ProtoSnap Plus
 ========================================
 
-![LilyPad Prototyping Board](URL for picture of part)
+![LilyPad ProtoSnap Plus](URL for picture of part)
 
-[*LilyPad Prototyping Board (XXX-00000)*](URL for product on Sparkfun.com)
+[*LilyPad ProtoSnap Plus (DEV-14346)*](https://www.sparkfun.com/products/14346)
 
 Snappable prototyping board with 32u4, light sensor, buzzer, button, and leds. 
+
+To use the ProtoSnap Plus with Arduino, install the [SparkFun Arduino_Boards](https://github.com/sparkfun/Arduino_Boards) package for avr version 1.1.7 or later.
+
+Base examples for this board are included in the package.  Select "LilyPad USB Plus" as a board type, then see examples for that board.
+
+For extra information on Linux use, see [/Documentation/LinuxInstallation.md](https://github.com/sparkfun/LilyPad_ProtoSnap_Plus/tree/master/Documentation/LinuxInstallation.md).
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
+* **/Documentation** - pin mapping and design information, linux installation info.
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
@@ -28,14 +31,11 @@ Documentation
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [DEV-14346](https://www.sparkfun.com/products/14346) - Main storefront product
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [V_1.0](https://github.com/sparkfun/LilyPad_ProtoSnap_Plus/tree/V_0.1) - Production release.
 
 License Information
 -------------------
