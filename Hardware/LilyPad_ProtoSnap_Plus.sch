@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21149,6 +21149,39 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </device>
 </devices>
 </deviceset>
+<deviceset name="470OHM" prefix="R" uservalue="yes">
+<description>&lt;h3&gt;470Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07869"/>
+<attribute name="VALUE" value="470"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-5%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13829" constant="no"/>
+<attribute name="VALUE" value="470" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="22OHM" prefix="R">
 <description>&lt;h3&gt;22Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -23897,7 +23930,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="LED3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="LED4" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
 <part name="P+3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
 <part name="P+4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -23941,15 +23974,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED5" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
 <part name="LED7" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="P+5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LED8" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
 <part name="LED9" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="470OHM" device="-0402-1/16W-5%" value="470"/>
 <part name="J15" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH" value="AMP FCI 10103594-0001LF"/>
 <part name="J16" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -25642,7 +25675,6 @@ sew taps</text>
 <approved hash="106,2,213.36,53.34,SINK1,,,,,"/>
 <approved hash="106,2,213.36,60.96,SINK2,,,,,"/>
 <approved hash="113,1,76.2,12.6788,S1,,,,,"/>
-<approved hash="113,1,20.9127,16.51,J16,,,,,"/>
 <approved hash="113,2,208.28,60.9388,S3,,,,,"/>
 </errors>
 </schematic>
