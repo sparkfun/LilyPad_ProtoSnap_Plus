@@ -1,7 +1,7 @@
 SparkFun LilyPad ProtoSnap Plus
 ========================================
 
-![LilyPad ProtoSnap Plus](URL for picture of part)
+![LilyPad ProtoSnap Plus](https://cdn.sparkfun.com//assets/parts/1/2/3/2/4/14346-01.jpg)
 
 [*LilyPad ProtoSnap Plus (DEV-14346)*](https://www.sparkfun.com/products/14346)
 
