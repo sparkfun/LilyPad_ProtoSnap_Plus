@@ -17,7 +17,6 @@ Repository Contents
 -------------------
 
 * **/Documentation** - pin mapping and design information, linux installation info.
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
