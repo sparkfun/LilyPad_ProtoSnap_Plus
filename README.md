@@ -23,11 +23,13 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-protosnap-plus-hookup-guide)** - Basic hookup guide for the LilyPad ProtoSnap Plus.
-* * **[Activity Guide](https://learn.sparkfun.com/tutorials/lilypad-protosnap-plus-activity-guide)** - This guide will get you started with some introductory programming activities exploring each of the LilyPad pieces on the LilyPad ProtoSnap Plus. If you’ve never used Arduino to program before, this guide will walk you through the basics with example code to upload and explore.
+* **[Activity Guide](https://learn.sparkfun.com/tutorials/lilypad-protosnap-plus-activity-guide)** - This guide will get you started with some introductory programming activities exploring each of the LilyPad pieces on the LilyPad ProtoSnap Plus. If you’ve never used Arduino to program before, this guide will walk you through the basics with example code to upload and explore.
 
 Product Versions
 ----------------
-* [DEV-14346](https://www.sparkfun.com/products/14346) - Main storefront product
+* [DEV-14346](https://www.sparkfun.com/products/14346) - LilyPad ProtoSnap Plus
+* [DEV-12922](https://www.sparkfun.com/products/12922) - LilyPad ProtoSnap Plus Kit Version
+* [LAB-14529](https://www.sparkfun.com/products/14529) - LilyPad ProtoSnap Plus Lab Pack Version
 
 Version History
 ---------------
