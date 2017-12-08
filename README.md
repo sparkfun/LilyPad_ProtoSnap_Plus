@@ -1,9 +1,16 @@
 SparkFun LilyPad ProtoSnap Plus
 ========================================
 
-![LilyPad ProtoSnap Plus](https://cdn.sparkfun.com//assets/parts/1/2/3/2/4/14346-01.jpg)
-
-[*LilyPad ProtoSnap Plus (DEV-14346)*](https://www.sparkfun.com/products/14346)
+<table class="table table-hover table-striped table-bordered">
+  <tr>
+   <td><a href="https://www.sparkfun.com/products/14346"><div align="center"><img src="https://cdn.sparkfun.com//assets/parts/1/2/3/2/4/14346-01.jpg" title="LilyPad ProtoSnap Plus"></div></a></center></td>
+   <td><a href="https://www.sparkfun.com/products/12922"><div align="center"><img src="https://cdn.sparkfun.com//assets/parts/9/8/4/0/12922-02.jpg" title="LilyPad ProtoSnap Plus Kit"></div></a></td>
+  </tr>
+  <tr>
+    <td><div align="center">LilyPad ProtoSnap Plus [<a href="https://www.sparkfun.com/products/14346">DEV-14346</a> ]</div></td>
+    <td><div align="center">LilyPad ProtoSnap Plus Kit [<a href="https://www.sparkfun.com/products/12922">DEV-12922</a>]</div></td>
+  </tr>
+</table>
 
 Snappable prototyping board with 32u4, light sensor, buzzer, button, and leds. 
 
